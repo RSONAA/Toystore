@@ -1,0 +1,65 @@
+/* AdminPage.css */
+.admin-page {
+  display: flex;
+}
+
+.admin-nav {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-nav h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-nav button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-nav .add-item-button {
+  background-color: #28a745;
+}
+
+.admin-nav button:hover {
+  background-color: #0056b3;
+}
+
+.admin-nav .add-item-button:hover {
+  background-color: #218838;
+}
+
+.admin-content {
+  width: 80%;
+  padding: 20px;
+}
+.admin-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.admin-controls button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-controls button:first-child {
+  background-color: #4CAF50; /* Edit button color */
+  color: white;
+}
+
+.admin-controls button:last-child {
+  background-color: #f44336; /* Delete button color */
+  color: white;
+}

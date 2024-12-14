@@ -1,0 +1,110 @@
+.error {
+  color: #ffffff;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.success {
+  color: green;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.login h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.login_page {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://t4.ftcdn.net/jpg/06/90/46/99/360_F_690469927_AgrOiunDiGNG9l0oo4Pif9GpRNbUb2YK.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 5 5 18px rgba(24, 22, 22, 0.10);
+}
+
+.login_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.one, .login {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.1);
+  border-radius: 50px;
+  height: fit-content;
+  width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+::placeholder {
+  text-align: justify;
+  font-size: 16px;
+  color: grey;
+}
+
+.input-container {
+  position: relative;
+  margin: 0.5rem 50px;
+}
+
+.input-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: grey;
+  padding-left: 10px;
+}
+
+input {
+  padding: 15px 15px 15px 50px;
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 100%;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.button1 {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.button1:hover {
+  background-color: #ddd;
+}
+
+.button2 {
+  background: none;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}

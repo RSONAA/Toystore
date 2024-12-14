@@ -1,0 +1,97 @@
+.edit-item-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.edit-item-page-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.edit-item-page-header {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.edit-item-page-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add spacing between form elements */
+}
+
+.edit-item-page-form-label {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.edit-item-page-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.edit-item-page-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button.edit-item-page-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center; /* Center align the button */
+}
+
+button.edit-item-page-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button.edit-item-page-button:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
+
+.edit-item-page-error {
+    font-size: 16px;
+    color: #ff4d4d;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .edit-item-page-container {
+        padding: 20px;
+    }
+
+    .edit-item-page-header {
+        font-size: 22px;
+    }
+
+    button.edit-item-page-button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}

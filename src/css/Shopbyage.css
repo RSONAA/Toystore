@@ -1,0 +1,101 @@
+.outpage {
+    background-color: rgb(253, 245, 245);
+    padding: 20px;
+}
+
+.shoptext h1 {
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-section {
+    margin-bottom: 40px; /* Space between categories */
+}
+
+.category-section h2 {
+    color: brown;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-items {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
+    gap: 40px; /* Space between items */
+    justify-content: center; /* Center align items */
+}
+
+.product-card {
+    width: 250px; /* Fixed width for each item */
+    text-align: center; /* Center align text */
+    background-color: #fff; /* Background color for the item */
+    border: solid 2px #ddd; /* Border for the item */
+    padding: 10px; /* Padding inside the item */
+    border-radius: 8px; /* Rounded corners for the item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better appearance */
+    position: relative; /* Position context for the wishlist icon */
+    transition: transform 0.3s ease; /* Smooth transition for the transform */
+}
+
+.product-card:hover {
+    transform: scale(1.1); /* Zoom in the entire div to 110% of its original size */
+}
+
+.product-card img {
+    height: 250px;
+    width: 250px;
+    border-bottom: solid 2px #ddd; /* Border between image and text */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.price-cart {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price-cart h3 {
+    margin-top: -30px;
+    font-size: 18px;
+    color: brown;
+}
+
+.price-cart button {
+    background-color: orange;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.price-cart button:hover {
+    background-color: darkorange; /* Darker color on hover */
+}
+
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent background */
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.wishlist-icon i {
+    font-size: 20px;
+    color: red;
+}
+
+h5 {
+    font-size: 20px;
+    margin-top: -7px;
+}

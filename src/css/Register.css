@@ -1,0 +1,101 @@
+.error {
+  color: black;
+  font-size: 25px;
+}
+
+.register h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.register_page {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://t4.ftcdn.net/jpg/06/90/46/99/360_F_690469952_ks07NgtB8T5kUaXeqBHrpAspm5SYNNpE.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(256, 256, 256, 0.1);
+  border-radius: 50px;
+  height: fit-content;
+  width: 470px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+::placeholder {
+  text-align: justify;
+  font-size: 16px;
+  color: grey;
+  padding-left: 3px;
+}
+
+.input-container {
+  position: relative;
+  margin: 0.5rem 60px;
+}
+
+.input-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: grey;
+  padding-left: 20px;
+}
+
+input {
+  padding: 15px 15px 15px 60px; /* Adjusted padding to make space for the icon */
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+.button1 {
+  margin-left: 155px;
+  margin-right: 155px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.button1:hover {
+  background-color: #ddd;
+}
+
+.button2 {
+  background: none;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
+#role{
+  padding: 5px;
+  border-radius: 30px;
+}

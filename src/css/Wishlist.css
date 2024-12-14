@@ -1,0 +1,114 @@
+
+
+/* src/css/Wishlist.css */
+
+.wishlist-page {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.wishlist-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.wishlist-header h1 {
+  font-size: 40px;
+  color: #D2042D;
+}
+
+.wishlist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 60px;
+}
+.wishlist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  max-width: 200px; /* Ensure consistent max-width */
+  width: 100%;
+}
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+.wishlist-item img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.item-details h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #000;
+}
+
+.item-details p {
+  font-size: 18px;
+  margin: 4px 0 0;
+  color: #666;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Adjust as needed for default size */
+  margin-top: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px; /* Default font size for readability */
+  display: inline-flex; /* Ensures button size is consistent and aligns text */
+  align-items: center; /* Vertically centers text */
+  justify-content: center; /* Horizontally centers text */
+  min-width: 120px; /* Ensures a minimum width for the button */
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.wishlist-empty {
+  text-align: center;
+  font-size: 20px;
+  color: #888;
+}

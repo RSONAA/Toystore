@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "a2ef",
+      "name": "SONA R",
+      "email": "727722eucs171@skcet.ac.in",
+      "pass": "sona123",
+      "role": "user"
+    },
+    {
+      "id": "0b22",
+      "name": "sofi",
+      "email": "727722eucs172@skcet.ac.in",
+      "pass": "sofi123",
+      "role": "user"
+    },
+    {
+      "id": "aede",
+      "name": "SONA R",
+      "email": "727722eucs171@skcet.ac.in",
+      "pass": "sona123",
+      "role": "user"
+    },
+    {
+      "id": "e731",
+      "name": "SONA R",
+      "email": "22cse176@skcet.ac.in",
+      "pass": "sona145",
+      "role": "user"
+    },
+    {
+      "id": "9b99",
+      "name": "SONA R",
+      "email": "22cse176@skcet.ac.in",
+      "pass": "sona123",
+      "role": "user"
+    },
+    {
+      "id": "e3f7",
+      "name": "sofi",
+      "email": "22cse170@skcet.ac.in",
+      "pass": "sofia123",
+      "role": "user"
+    },
+    {
+      "id": "9e40",
+      "name": "shruthi",
+      "email": "22cse176@skcet.ac.in",
+      "pass": "345678",
+      "role": "user"
+    },
+    {
+      "id": "b29a",
+      "name": "sona",
+      "email": "22cse369@skcet.ac.in",
+      "pass": "369369",
+      "role": "user"
+    },
+    {
+      "id": "831a",
+      "name": "sona",
+      "email": "22cse369@skcet.ac.in",
+      "pass": "369369",
+      "role": "user"
+    },
+    {
+      "id": "30a9",
+      "name": "toystore",
+      "email": "727722eucs171@skcet.ac.in",
+      "pass": "toystore",
+      "role": "user"
+    },
+    {
+      "id": "abf9",
+      "name": "sona",
+      "email": "727722eucs171@skcet.ac.in",
+      "pass": "toystore",
+      "role": "admin"
+    },
+    {
+      "id": "38de",
+      "name": "admin",
+      "email": "admin24@gmail.com",
+      "pass": "admin24",
+      "role": "admin"
+    }
+  ]
+}

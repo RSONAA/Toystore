@@ -1,0 +1,84 @@
+/* OrderDetails.css */
+
+.order-details-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-summary {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-summary h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .order-summary h2 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .order-summary p {
+    margin: 5px 0;
+  }
+  
+  .order-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-summary li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .order-summary img {
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .order-summary span {
+    margin-right: 10px;
+  }
+  
+  .order-summary .payment-method,
+  .order-summary .shipping-details,
+  .order-summary .ordered-items {
+    margin-top: 20px;
+  }
+  
+  .order-summary .ordered-items ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order-summary .ordered-items li {
+    margin-bottom: 10px;
+  }
+  
+  .order-summary .payment-method,
+  .order-summary .shipping-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .order-summary .payment-method h2,
+  .order-summary .shipping-details h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .order-summary .shipping-details {
+    margin-top: 20px;
+  }
+  

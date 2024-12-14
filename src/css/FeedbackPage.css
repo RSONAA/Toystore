@@ -1,0 +1,46 @@
+.feedback-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.feedback-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-page li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-page li h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.feedback-page li p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.feedback-page li:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}

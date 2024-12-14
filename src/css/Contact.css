@@ -1,0 +1,206 @@
+.contact_page {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fef9e7;
+}
+
+.helptext {
+  margin-top: -80px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color:#D2042D;
+}
+
+.twoinone {
+  display: flex;
+  flex-direction: column;
+  padding-right: 130px;
+}
+
+.helpimg img {
+  height: 240px;
+  width: 240px;
+}
+
+.contactus {
+  background: white;
+  width: 55vh;
+  padding-top: 40px;
+  /* padding-right: 4px; */
+  border-radius: 40px;
+  border: solid 5px #D2042D;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactus label {
+  display: block;
+  margin-bottom: -30px;
+  width: 5px;
+  border-radius: 20px;
+  border-color: #D2042D;
+}
+
+form .name {
+  width: 430px;
+  margin-left: -16px;
+  border-color: #D2042D;
+}
+
+form .email {
+  width: 430px;
+  margin-left: -16px;
+}
+
+.mes textarea {
+  height: 80px;
+  width: 40%;
+  margin-top: 16px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.contactus input,
+.contactus textarea {
+  width: 70%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #D2042D;
+  border-radius: 4px;
+}
+
+.contactus input:hover,
+.contactus textarea:hover {
+  border-color: #D2042D; /* Ensure border color remains constant on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; /* Adjust margin as needed */
+}
+
+.contactus button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 150px; /* Set minimum width to prevent text wrapping */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin-bottom: 30px; /* Add bottom margin */
+}
+
+.contact_page {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fef9e7;
+}
+
+.helptext {
+  margin-top: -80px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+.twoinone {
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 130px; */
+}
+
+.helpimg img {
+  height: 240px;
+  width: 240px;
+}
+
+.contactus {
+  background: white;
+  width: 55vh;
+  padding-top: 40px;
+  padding-right: 10px;
+  border-radius: 40px;
+  border: solid 5px #D2042D;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactus label {
+  display: block;
+  margin-bottom: -30px;
+  width: 5px;
+  border-radius: 20px;
+  border-color: #D2042D;
+}
+
+form .name {
+  width: 430px;
+  margin-left: -16px;
+  border-color: #D2042D;
+}
+
+form .email {
+  width: 430px;
+  margin-left: -16px;
+}
+
+.mes textarea {
+  height: 60px;
+  width: 40%;
+  margin-top: 16px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.contactus input,
+.contactus textarea {
+  width: 70%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #D2042D;
+  border-radius: 4px;
+}
+
+.contactus input:hover,
+.contactus textarea:hover {
+  border-color: #D2042D; /* Ensure border color remains constant on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; /* Adjust margin as needed */
+}
+
+.contactus button {
+  background-color:  #D2042D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 150px; /* Set minimum width to prevent text wrapping */
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin-bottom: 30px; /* Add bottom margin */
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: #D2042D;
+  font-size: 25px;
+  margin-top: 570px;
+  text-align: center;
+  margin-left: -420px;
+}
+
+
+

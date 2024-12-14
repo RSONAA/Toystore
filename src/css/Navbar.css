@@ -1,0 +1,154 @@
+.full {
+    background-color: #fef9e7;
+}
+
+.nav {
+    padding-bottom: 18px;
+    margin-top: -20px;
+}
+
+.logo {
+    margin-left: -380px;
+    font-size: 90px;
+    padding-top: -80px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    width: fit-content;
+}
+
+.heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-top: -160px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.color1 { color: #FF5733; }
+.color2 { color: #FF5733; }
+.color3 { color: #FF5733; }
+.color4 { color: green; } 
+.color5 { color: red; }
+.color6 { color: red; }
+.color7 { color: red; }
+.color8 { color: green; }  
+.color9 { color: blue; }
+.color10 { color: blue; }
+.color11 { color: blue; }
+.color12 { color: blue; }
+.color13 { color: blue; }
+
+.icons {
+    padding-left: 1030px;
+    display: flex;
+    direction: row;
+    margin-top: -45px;
+    color: #D2042D;
+    padding-right: 20px;
+}
+
+.search {
+    padding-left: 9px;
+    font-size: 26px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid #D2042D;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.search button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.loginbutton {
+    padding-left: 40px;
+    font-size: 26px;
+}
+
+.cart {
+    padding-left: 40px;
+    font-size: 26px;
+}
+
+.wish {
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+.shops {
+    background-color: #D2042D;
+    display: flex;
+    color: white;
+    padding: 2px;
+    gap: 50px;
+}
+
+.shops h2 {
+    padding-left: 80px;
+    justify-content: space-between;
+    gap: 120px;
+    background-color: #D2042D;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shopy {
+    background-color: #D2042D;
+    border: none;
+    color: white;
+}
+
+.search i {
+    cursor: pointer;
+    font-size: 25px;
+    color: #D2042D;
+    border: #D2042D;
+}
+.cart {
+    padding-left: 40px;
+    font-size: 26px;
+    position: relative; /* Enable positioning of the badge */
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px; /* Adjust to position above the icon */
+    right: -10px; /* Adjust to position slightly to the right */
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.profilebutton {
+    margin-left: 28px;
+    margin-right: -15px;
+    cursor: pointer;
+  }
+  
+  .profilebutton i {
+    font-size: 35px;
+    color: #D2042D; /* Adjust the color as needed */
+  }
+  
+  .profilebutton i:hover {
+    color: darkgray; /* Adjust the hover color as needed */
+  }
+  

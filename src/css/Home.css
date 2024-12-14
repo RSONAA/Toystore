@@ -1,0 +1,112 @@
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.scroll img {
+    min-width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.offtag {
+    margin-top: -20px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    font-weight: bold; /* corrected font-weight value */
+    height: 40px;
+    text-align: center;
+}
+
+.offtag p {
+    padding-top: 5px;
+}
+
+.offtag i {
+    margin-right: 8px; /* Add space between icon and text */
+}
+
+.backyard {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Make children elements stretch to the same height */
+}
+
+.backtext {
+    background-color: #FFEA00;
+    color: blue;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.backimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backimg img {
+    width: 100%;
+    height: 100%; /* Ensure the image covers the entire height of its container */
+    object-fit: cover;
+}
+
+.text1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 60px;
+    font-weight: 700; /* valid font-weight value */
+    margin-top: 90px;
+}
+
+.text2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 100px;
+    font-weight: 800; /* valid font-weight value */
+    margin-top: -90px;
+}
+
+.text3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 100px;
+    font-weight: 900; /* valid font-weight value */
+    margin-top: -120px;
+}
+
+.text4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 700; 
+    margin-top: -50px;
+}
+
+.text5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 400; 
+    margin-top: -20px;
+}
+
+.backbutton {
+    background-color: blue;
+    color: white;
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 80px;
+    border-radius: 30px;
+    border:none;
+}
